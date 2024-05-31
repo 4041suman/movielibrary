@@ -23,7 +23,7 @@ BlueBird-Movies is a React-based movie website that allows users to search for m
 BlueBird-Movies is built using the following technologies:
 
 - ReactJS
-- TMDB API
+- OMDB API
 - Firebase Google Authentication
 - Framer Motion
 
@@ -35,11 +35,11 @@ BlueBird-Movies is built using the following technologies:
 
 Firstly, download the entire website code and extract the ZIP file to a folder on your local system.
 
-## Step 2: Obtain the TMDB Movies API Key and Firebase Configuration
+## Step 2: Obtain the OMDB Movies API Key and Firebase Configuration
 
-Before starting the website, you will need to obtain the TMDB Movies API key and Firebase configuration. Follow these steps to obtain them and add them to your `.env` file.
+Before starting the website, you will need to obtain the OMDB Movies API key and Firebase configuration. Follow these steps to obtain them and add them to your `.env` file.
 
-### ▶️ Get TMDB API Key 
+### ▶️ Get OMDB API Key 
 
 - Go to https://www.themoviedb.org/ and log in.
 - Click on your user profile picture in the navigation bar, and select "Settings".
@@ -74,20 +74,10 @@ npm run dev
 ```
 This will start the application. Open a web browser and navigate to http://localhost:3000 to access the website.
 
-Note: Ensure that you have carefully added the TMDB API key and Firebase authentication configuration to your .env file. If the .env file is not working, add all the API keys and configuration manually.
+Note: Ensure that you have carefully added the OMDB API key and Firebase authentication configuration to your .env file. If the .env file is not working, add all the API keys and configuration manually.
 
 <hr/>
 
-# 🍿 Demo 
 
-- Check out our live demo at https://bluebirdmovies.netlify.app/ 
+
  
-- Youtube video : https://www.youtube.com/watch?v=mGqOOtEGmJc.
-
-https://github.com/tushar-2223/BlueBird-Movies/assets/87109400/2c13988f-d058-456b-a2e3-f3b716646fe6
-
-
-  
-
-# 😍 Contribution
-Contributions are always welcome, open a **Pull Request** and help us improve our project.
